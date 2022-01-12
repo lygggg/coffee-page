@@ -1,4 +1,4 @@
-import { getProductlist } from "./apis/Product";
+import { getProductlist } from "./apis/Product.js";
 
 export const fetchProductList = async () => {
   console.log();
