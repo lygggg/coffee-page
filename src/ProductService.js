@@ -1,10 +1,9 @@
 import { getProductlist } from "./apis/Product.js";
 
-export const fetchProductList = async () => {
-  console.log();
+export async function fetchProductList() {
   try {
     return await getProductlist();
   } catch (e) {
-    console.error(e);
+    alert(e);
   }
-};
+}

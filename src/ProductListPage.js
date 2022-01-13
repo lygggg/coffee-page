@@ -1,4 +1,7 @@
+import { fetchProductList } from "./ProductService.js";
+
 export default function ProductListPage({ $target }) {
+  console.log(fetchProductList());
   const $page = document.createElement("div");
   $page.className = "ProductListPage";
 
