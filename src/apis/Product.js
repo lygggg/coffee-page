@@ -2,7 +2,7 @@ const URL =
   "https://uikt6pohhh.execute-api.ap-northeast-2.amazonaws.com/dev/products";
 
 const options = {
-  moder: "cors",
+  mode: "cors",
   headers: {
     "Access-Control-Allow-Origin": "*",
   },
